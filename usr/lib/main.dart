@@ -66,7 +66,7 @@ class _CyberHomePageState extends State<CyberHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('CYBER DASHBOARD'),
+        title: const Text('DASHBOARD CYBER'),
       ),
       body: Stack(
         children: [
@@ -85,7 +85,7 @@ class _CyberHomePageState extends State<CyberHomePage> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'ACCESS GRANTED',
+                  'AKSES DITERIMA',
                   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         fontSize: 32,
                         color: Colors.cyanAccent,
@@ -93,7 +93,7 @@ class _CyberHomePageState extends State<CyberHomePage> {
                 ),
                 const SizedBox(height: 16),
                 Text(
-                  'Clicks: $_counter',
+                  'Klik: $_counter',
                   style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                         fontSize: 20,
                       ),
@@ -105,7 +105,7 @@ class _CyberHomePageState extends State<CyberHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Tambah',
         child: const Icon(Icons.add),
       ),
     );
